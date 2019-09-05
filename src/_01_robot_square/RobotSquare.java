@@ -28,6 +28,22 @@ public class RobotSquare {
 
         //         4. Turn the robot 90 degrees to the right (90 degrees)
 
+Robot bob=new Robot();
+bob.penDown();
+bob.setSpeed(10000000);
+bob.move(-200);
+bob.turn(-90);
+bob.move(200);
+bob.turn(90);
+bob.move(400);
+bob.turn(90);
+bob.move(200);	
 
-    }
+	
 }
+	
+
+}
+
+    
+
